@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
 
-mongoose.connect("mongodb://localhost:27017/backend_project", {useNewUrlParser: true, useUnifiedTopology: true}, 
+mongoose.connect("44.229.200.200/32/backend_project", {useNewUrlParser: true, useUnifiedTopology: true}, 
     (err) => {
         if(err){
             console.log("Connection Failed", err)
